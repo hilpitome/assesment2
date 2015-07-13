@@ -1,0 +1,22 @@
+  |#bigContainer {
+  background-image: url();
+  background-size: 1757px 845px;
+  height: 1191px;
+  width: 1884px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: absolute;
+  left: 50%;
+  margin-left: -942px;
+  opacity: .8;
+  font-family: "helvetica", Georgia, Serif;
+  }
+
+  .logo {
+    text-align: center;
+  }
+   h1 {
+
+    color: red;
+  }
+
