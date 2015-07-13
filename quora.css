@@ -1,4 +1,4 @@
-  |#bigContainer {
+  .Container {
   background-image: url();
   background-size: 1757px 845px;
   height: 1191px;
@@ -19,4 +19,12 @@
 
     color: red;
   }
+  #interact 
+  	 {
+    border-style: solid;
+    border-width: thin;
+  }
+  
 
+   
+   
