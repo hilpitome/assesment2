@@ -1,5 +1,7 @@
+  body {
+    background-image: url("bacimg.png");
+  }
   .Container {
-  background-image: url("back.jpg");
   background-size: 1757px 845px;
   height: 1191px;
   width: 1884px;
@@ -21,6 +23,7 @@
   }
   #interact 
   	 {
+    opacity: 1.0;
     border-style: solid;
     border-width: thin;
   }
