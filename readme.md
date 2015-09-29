@@ -1,1 +1,1 @@
-This is the steps I took to atteempt to replicate the quora login page
+This are the steps I took in an attempt to replicate the quora login page:

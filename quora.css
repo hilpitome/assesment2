@@ -28,13 +28,30 @@
 
     color: red;
   }
-  #interact 
+  #interact
   	 {
     background-color: #fff;
     border-style: solid;
     border-width: thin;
   }
-  
 
-   
-   
+  .submit_button {
+      box-shadow:
+  }
+
+.social{
+  width: 200px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#google {
+  margin-top: 20px;
+  background-color: orange;
+}
+#twitter{
+  background-color: green;
+}
+#facebook{
+  background-color:blue;
+}

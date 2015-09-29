@@ -12,9 +12,9 @@
     </head>
 
     <body>
-         
+
       <div id="bigContainer" class="container">
-        
+
        <div class="logo" style="text-align:center";>
         <h1>Quora</h1>
         <p>The best answer to any question</p>
@@ -22,17 +22,25 @@
 
        <div  id="interact" class="row">
         <div class="col s6">
-         <img src="images.jpg">
-        <p><a href="#">Sign Up With Email.</a> By signing up you<br> indicate that you have read and agree to the<br> Terms of Service.</p>                
+         <div class="row">
+           <button btn-large class="social" id="google">Sign in with Google plus</button>
+            </div>
+        <div class="row">
+           <button btn-large class="social" id="twitter">Sign in with Twitter</button>
+        </div>
+        <div class="row">
+           <button btn-large class="social" id="facebook">Sign in with facebook</button>
+         </div>
+
+        <p><a href="#">Sign Up With Email.</a> By signing up you<br> indicate that you have read and agree to the<br> Terms of Service.</p>
         </div>
         <div class="col s6">
-          <h6>LOGIN</h6>
-          <input type="email" placeholder="Email">
+          <input class="submit_button" type="email" placeholder="Email">
           <p>
-          <input type="checkbox" id="test5" />
+          <input class="submit_button" type="checkbox" id="test5" />
           <label for="test5">Remember me</label>
           </p>
-          <input id="password" type="password" class="validate" placeholder="password">
+          <input class="submit_button" id="password" type="password" class="validate" placeholder="password">
           <label for="password">Forgot password?</label>
 
         </div>
@@ -45,13 +53,12 @@
             </div>
           </div>
         </footer>
-     
+
       </div>
-    
-            
+
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>
-        
